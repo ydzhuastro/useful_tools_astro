@@ -127,4 +127,5 @@ def plot_all_fits_t():
                 os._exit(2)
             plot_single_fits_truncated_error(filename)
 
-plot_all_fits()
+if __name__ == "__main__":
+    plot_all_fits()
